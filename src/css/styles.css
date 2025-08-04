@@ -1,0 +1,23 @@
+@import url('./layout/01-header.css');
+@import url('./layout/02-main.css');
+@import url('/src/css/layout/03-footer.css');
+@import url('./pages/01-banner.css');
+@import url('./pages/02-receitas.css');
+@import url('./pages/03-aboutUs.css');
+@import url('./layout/03-footer.css');
+
+:root {
+    --font-title: "Abril Fatface", serif;
+    --font-content: "Quicksand", sans-serif;
+    --white-color: #ffffff;
+    --green-color: #003e1f;
+    --red-color: #d90429;
+    --card-color: #d5f2e3;
+}
+
+body {
+    line-height: 1.5;
+    font-family: var(--font-content);
+    font-size: 0.8rem;
+    font-weight: 400;
+}

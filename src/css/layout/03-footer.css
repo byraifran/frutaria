@@ -1,0 +1,48 @@
+.footer {
+    max-width: 100%;
+    background-color: var(--green-color);
+    color: var(--white-color);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    vertical-align: top;
+
+    h5 {
+        margin: 10px;
+        text-align: center;
+        font-weight: 600;
+    }
+}
+
+.footer__info ul {
+    text-align: center;
+}
+
+.footer__info ul li img {
+    width: 18px;
+}
+
+.footer__info ul li a {
+    color: var(--white-color);
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+
+.footer__pay {
+    text-align: center;
+}
+
+.pay__cart img {
+    width: 115px;
+}
+
+.social__media {
+    text-align: center;
+}
+.social-logo {
+    width: 24px;
+    padding: 0 2px;
+}

@@ -1,0 +1,27 @@
+.banner {
+    max-width: 100%;
+}
+
+.banner__image {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.banner__container {
+    text-align: center;
+    margin: 0 18px;
+    padding: 0 10px;
+    position: absolute;
+    top: 12%;
+    color: var(--white-color);
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+    
+}
+.banner__title {
+    font-size: 1.2rem;
+    font-size: 700;
+}
+
+.banner__text {
+    font-size: 500;
+}
