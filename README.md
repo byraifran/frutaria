@@ -1,2 +1,8 @@
-# frutas-e-frutos-alura
-Projeto desenvolvido com HTML e CSS.
+# Frutaria
+Projeto de uma frutaria desenvolvido com html e css.
+
+## Tecnologias
+
+- HTML
+- CSS
+- VS code
