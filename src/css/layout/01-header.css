@@ -1,6 +1,6 @@
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 18px;
     position: relative;
@@ -11,13 +11,13 @@
     max-width: 100%;
 }
 
-.header__image {
-    width: 52px;
-}
-
-.header__logo a{
+.logo__link{
     text-decoration: none;
     color: var(--white-color)
+}
+
+.logo__image {
+    width: 42px;
 }
 
 .menu {
