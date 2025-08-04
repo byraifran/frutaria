@@ -60,4 +60,5 @@
     background-color: var(--green-color);
     font-size: 0.6rem;
     color: var(--white-color);
+    border-radius: 20px;
 }
