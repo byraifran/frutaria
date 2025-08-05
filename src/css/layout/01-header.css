@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 18px;
+    padding: 5px 28px;
     position: relative;
     top: 0;
     left: 0;
@@ -30,4 +30,13 @@
 .menu__link {
     text-decoration: none;
     color: var(--white-color);
+}
+
+@media (min-width: 768px) {
+    .header {
+    justify-content: space-between;
+}
+    .logo__image {
+        width: 72px;
+}
 }

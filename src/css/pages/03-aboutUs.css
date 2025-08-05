@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 18px 0;
+    margin: 18px;
 }
 
 .about__content {
@@ -53,4 +53,33 @@
 
 .person__description {
     font-size: 0.6rem;
+}
+
+@media (min-width: 768px) {
+    .about__title {
+    font-size: 2rem;
+}
+.about__paragraph {
+    font-size: 1rem;
+}
+
+.about__people {
+    flex-direction: row;    
+}
+
+.person__photo {
+    max-width: 68%;
+}
+
+.person__name {
+    margin: 0;
+}
+.person__job {
+    margin-bottom: 5px;
+}
+
+.person__description {
+    font-size: 0.6rem;
+   max-width: 52%;
+}
 }

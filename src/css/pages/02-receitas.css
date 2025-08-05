@@ -35,7 +35,7 @@
 }
 
 .card__image {
-    width: 180px;
+    max-width: 180px;
     height: 180px;
     border-radius: 100%;
 }
@@ -61,4 +61,25 @@
     font-size: 0.6rem;
     color: var(--white-color);
     border-radius: 20px;
+}
+
+@media (min-width: 768px) {
+    .receitas__title {
+    font-size: 2rem;
+}
+
+.receitas__paragraph {
+    font-size: 1rem;
+}
+
+.receitas__cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card__image {
+    max-width: 100%;
+    max-height: auto;
+}
 }
