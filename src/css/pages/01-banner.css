@@ -25,6 +25,7 @@
 .banner__title {
     font-size: 1.2rem;
     font-weight: 700;
+    font-family: var(--font-title);
 }
 
 .banner__text {
@@ -53,7 +54,7 @@
 }
 
 .banner__title {
-    font-size: 4rem;
+    font-size: 8rem
 }
 
 .banner__text {
