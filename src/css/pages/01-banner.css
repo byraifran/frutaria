@@ -34,8 +34,8 @@
 
 @media (min-width: 768px) and (max-width: 1024px) {
     .banner__container {
-        top: 25%;
-        transform:translate(-50% -50%)
+        top: 20%;
+        transform: translate(-50% -50%)
     }
 
     .banner__title {
@@ -49,8 +49,8 @@
 
 @media (min-width: 1024px) {
     .banner__container {
-    top: 35%;
-    left: 20%;
+    top: 25%;
+    left: 15%;
 }
 
 .banner__title {
