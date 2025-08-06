@@ -7,12 +7,12 @@
 @import url('./layout/03-footer.css');
 
 :root {
-    --font-title: "Abril Fatface", serif;
+    --font-title: "The Nautigal", cursive;;
     --font-content: "Quicksand", sans-serif;
     --white-color: #ffffff;
-    --green-color: #003e1f;
+    --green-color: #142601;
     --red-color: #d90429;
-    --card-color: #d5f2e3;
+    --card-color: #7FBF1F;
 }
 
 body {
