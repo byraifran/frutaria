@@ -122,4 +122,9 @@
     font-size: 1rem;
     padding: 16px;
 }
+
+.card__btn:hover{
+    background-color: var(--red-color);
+    transition: 0.3s linear;
+}
 }
