@@ -26,6 +26,8 @@
 .about__people {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    max-width: 80%;
     gap: 20px;
     
 }
@@ -81,5 +83,36 @@
 .person__description {
     font-size: 0.6rem;
    max-width: 52%;
+}
+}
+
+@media (min-width: 1024px) {
+    .about__title {
+    font-size: 4rem;
+}
+
+.about__paragraph {
+    font-size: 2rem;
+}
+
+.about__person {
+    max-width: 20%;
+}
+
+.person__photo {
+    width: 68%;
+    border-radius: 100%;
+}
+
+.person__name {
+    font-size: 1.5rem;
+}
+
+.person__job {
+    font-size: 1rem;
+}
+
+.person__description {
+    font-size: 0.9rem;
 }
 }

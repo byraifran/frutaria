@@ -1,12 +1,14 @@
 .banner {
     max-width: 100%;
     text-align: center;
+    overflow: hidden;
 }
 
 .banner__image {
-    max-width: 100%;
-    overflow: hidden;
+    width: 100%;
+    max-height: auto;
     filter: blur(1px);
+    z-index: 100;
 }
 
 .banner__container {
@@ -17,6 +19,7 @@
     top: 10%;
     color: var(--white-color);
     background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
 }
 
 .banner__title {
@@ -31,7 +34,6 @@
 @media (min-width: 768px) and (max-width: 1024px) {
     .banner__container {
         top: 25%;
-        left: 12%;
         transform:translate(-50% -50%)
     }
 
@@ -42,4 +44,20 @@
     .banner__text {
         font-size: 1rem;
     }
+}
+
+@media (min-width: 1024px) {
+    .banner__container {
+    top: 35%;
+    left: 20%;
+}
+
+.banner__title {
+    font-size: 4rem;
+}
+
+.banner__text {
+    font-size: 2rem;
+    padding: 5px 18px;
+}
 }

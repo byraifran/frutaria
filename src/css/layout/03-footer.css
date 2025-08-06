@@ -32,6 +32,7 @@
 
 .footer__pay {
     text-align: center;
+    max-width: 30%;
 }
 
 .pay__cart img {
@@ -55,5 +56,26 @@
 
 .footer__info ul {
     text-align: left;
+}
+}
+
+@media (min-width: 1024px) {
+.footer h5 {
+    font-size: 1rem;
+}
+    .footer__info ul li img {
+    width: 32px;
+}
+
+.footer__info ul li a {
+    font-size: 1rem;
+}
+
+.pay__cart img {
+    width: 30%;
+}
+
+.social-logo {
+    width: 20%;
 }
 }
