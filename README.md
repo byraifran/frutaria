@@ -6,6 +6,7 @@ Projeto desenvolvido com HTML e CSS.
 <img src="./src/docs/screenshot-header-banner.png" width="600px">
 <img src="./src/docs/screenshot-receitas.png" width="600px">
 <img src="./src/docs/screenshot-aboutUs-footer.png" width="600px">
+
 ## Tecnologias
 
 - HTML;
