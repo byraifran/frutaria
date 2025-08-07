@@ -1,0 +1,22 @@
+@import url('./layout/01-header.css');
+@import url('./pages/01-banner.css');
+@import url('/assets/css/pages/02-receitas.css');
+@import url('/assets/css/pages/03-aboutUs.css');
+@import url('/assets/css/layout/03-footer.css');
+
+:root {
+    --font-title: "Domine", serif;
+    --font-content: "DM Sans", sans-serif;
+    --primary-color: #402A1E;
+    --white-color: #ffffff;
+    --red-color: #8C1C03;
+    --green-color: #D9CB04;
+    --bg-color: #F2F2F0;
+}
+
+body {
+    line-height: 1.5;
+    font-family: var(--font-content);
+    font-size: 0.8rem;
+    font-weight: 400;
+}

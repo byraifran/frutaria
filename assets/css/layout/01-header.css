@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--bg-color);
+    max-width: 100%;
+    padding: 18px 34px;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+.menu__link {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.7rem;
+    font-family: var(--font-title);
+}
+
+.logo__image {
+    max-width: 42px;
+    max-height: 42px;
+}

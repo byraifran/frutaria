@@ -1,0 +1,20 @@
+.banner {
+    max-width: 100%;
+    min-height: 100px;
+}
+
+.banner__image {
+    max-width: 100%;
+}
+
+.banner__container {
+    text-align: center;
+    margin: 18px;
+}
+
+.banner__title {
+    font-family: var(--font-title);
+    font-size: 1.2rem;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
