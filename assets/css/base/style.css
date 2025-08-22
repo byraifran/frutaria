@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url(../pages/header.css);
+@import url(../pages/banner.css);
+@import url(../../css/pages/receitas.css);
+@import url(../pages/aboutUs.css);
+@import url(../../css/pages/footer.css);
+
+:root {
+    --color-primary: #172126;
+    --color-secondary: #ffffff;
+    --color-complement: #8d0606;
+    --bg-color: #F2F2F2;
+    --font-primary: "Roboto", sans-serif;
+    --font-secondary: "Indie Flower", sans-serif;
+}
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ body {
+    font-family: var(--font-primary);
+    color: var(--color-primary);
+    line-height: 1.6;
+    background-color: var(--bg-color);
+    font-size: 1rem;
+ }

@@ -1,0 +1,124 @@
+.receitas {
+    max-width: 85%;
+    margin: 0 auto;
+}
+
+.receitas__titulo {
+    font-size: 2.5rem;
+    font-family: var(--font-secondary);
+    color: var(--color-complement);
+    margin: 1rem 0;
+}
+
+.receitas__paragrafo {
+    font-size: 1.5rem;
+    font-family: var(--font-secundary);
+}
+
+.receitas__cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    margin: 1rem auto;
+    max-width: 100%;
+}
+
+.card {
+    max-width: 14.85%;
+    overflow: clip;
+    border-radius: 5px;
+    background-color: #dddbdb;
+}
+
+.card__imagem {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.card__conteudo {
+    margin: 1rem;
+    text-align: center;
+    padding: 0.625rem;
+}
+
+.card__titulo {
+    font-size: 1.2rem;
+    margin-bottom: 0.625rem;
+    font-weight: 500;
+}
+
+.card__descricao {
+    font-weight: 400;
+    font-family: var(--font-secondary);
+}
+
+.card__btn {
+    margin: 1rem auto;
+    display: block;
+    padding: 0.75rem;
+    border: none;
+    background-color: var(--color-complement);
+    border-radius: 5px;
+    color: var(--color-secondary);
+    box-shadow: 8px 8px 12px -10px rgba(0,0,0,0.85);
+}
+
+.card__btn:hover {
+    background-color: brown;
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+    .receitas {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .receitas__titulo {
+        font-size: .9rem;
+    }
+    .receitas__paragrafo {
+        font-size: .7rem;
+    }
+    .receitas__cards {
+        flex-direction: column;
+        justify-content: center;
+        margin: 1rem 0;
+        gap: 1rem;
+    }
+    .card {
+        max-width: 85%;
+    }
+    .card__imagem {
+        width: 100%;
+    }
+    .card__titulo {
+        font-size: 1rem;
+    }
+    .card__descricao {
+       font-size: .8rem;
+    }
+    
+    
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .receitas__titulo {
+        font-size: 2rem;
+    }
+    .receitas__paragrafo {
+        font-size: 1.2rem;
+    }
+    .receitas__cards {
+        justify-content: center;
+        gap: 1rem;
+        flex-wrap: wrap;
+    }
+    .card {
+        max-width: 30.85%;
+    }
+    .card__titulo {
+        font-size: 1rem;
+    }
+}

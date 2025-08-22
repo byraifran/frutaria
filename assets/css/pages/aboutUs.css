@@ -1,0 +1,131 @@
+.aboutUs {
+    max-width: 85%;
+    margin: 0 auto;
+}
+
+.aboutUs__titulo {
+    font-size: 2.5rem;
+    font-family: var(--font-secondary);
+    color: var(--color-complement);
+    margin: 1rem 0;
+}
+
+.aboutUs__paragrafo {
+    font-size: 1.5rem;
+}
+
+.aboutUs__avatares {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    margin: 1rem auto;
+    max-width: 100%;
+}
+
+.avatar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 20%;
+    overflow: clip;
+    border-radius: 5px;
+    background-color: #dddbdb;
+    padding: 0 2.5rem;
+}
+
+.avatar__image-1,
+.avatar__image-2,
+.avatar__image-3,
+.avatar__image-4 {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 110px;
+    border-radius: 100%;
+    display: block;
+    margin: 1.125rem auto;
+}
+
+.avatar__image-1 {
+    background-image: url(../../images/avatar-1.jpg);
+}
+
+.avatar__image-2 {
+    background-image: url(../../images/avatar-2.jpg);
+}
+
+.avatar__image-3 {
+    background-image: url(../../images/avatar-3.jpg);
+}
+
+.avatar__image-4 {
+    background-image: url(../../images/avatar-2.jpg);
+}
+
+.avatar__name {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.avatar__job {
+    font-weight: 300;
+    margin-bottom: 1.125rem;
+}
+
+.avatar__name, .avatar__job {
+    text-align: center;
+}
+
+.avatar__descricao {
+    padding: 0 1.125rem;
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+    .aboutUs {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .aboutUs__titulo {
+        font-size: 1.5rem;
+    }
+    .aboutUs__paragrafo {
+        font-size: .8rem;
+    }
+    .aboutUs__avatares {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        width: 80%;
+    }
+    .avatar {
+        max-width: 100%;
+        overflow: visible ;
+        padding: 0;
+    }
+    .avatar__descricao {
+        padding-bottom: 1.125rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .aboutUs__titulo {
+        font-size: 2rem;
+    }
+    .aboutUs__paragrafo {
+        font-size: 1rem;
+    }
+    .aboutUs__avatares {
+        justify-content: center;
+        gap: 1rem;
+        flex-wrap: wrap;
+    }
+    .avatar {
+        max-width: 48%;
+    }
+}

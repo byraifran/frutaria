@@ -1,0 +1,20 @@
+.banner__imagem {
+    background-image: url(../../images/2-banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    min-height: 600px;
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+    .banner__imagem {
+        min-height: 150px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .banner__imagem {
+        min-height: 300px;
+
+}
