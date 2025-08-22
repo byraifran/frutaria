@@ -1,7 +1,6 @@
 .header {
     display: flex;
     align-items: center;
-    justify-content: space-around;
     padding: 1rem;
     max-width: 100%;
 }
@@ -44,5 +43,5 @@
         padding: .4rem;
         font-weight: 500;
         font-size: .8rem;    
-}
+    }
 }
